@@ -171,8 +171,6 @@ The method will automatically format the result, which you can tweak using the t
 Cart::total($decimals, $decimalSeperator, $thousandSeperator);
 ```
 
-You can set the default number format in the config file.
-
 **If you're not using the Facade, but use dependency injection in your (for instance) Controller, you can also simply get the total property `$cart->total`**
 
 ### Cart::tax()
@@ -189,8 +187,6 @@ The method will automatically format the result, which you can tweak using the t
 Cart::tax($decimals, $decimalSeperator, $thousandSeperator);
 ```
 
-You can set the default number format in the config file.
-
 **If you're not using the Facade, but use dependency injection in your (for instance) Controller, you can also simply get the tax property `$cart->tax`**
 
 ### Cart::subtotal()
@@ -206,8 +202,6 @@ The method will automatically format the result, which you can tweak using the t
 ```php
 Cart::subtotal($decimals, $decimalSeperator, $thousandSeperator);
 ```
-
-You can set the default number format in the config file.
 
 **If you're not using the Facade, but use dependency injection in your (for instance) Controller, you can also simply get the subtotal property `$cart->subtotal`**
 
